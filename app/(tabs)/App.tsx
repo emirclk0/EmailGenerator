@@ -1,8 +1,8 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import Login from './login';
-import Generator from './generator';
+import Login from './Login';
+import Generator from './Generator';
 
 export type RootStackParamList = {
   Login: undefined;

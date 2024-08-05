@@ -15,7 +15,7 @@ export default function TabLayout() {
         headerShown: false,
       }}>
       <Tabs.Screen
-        name="login"
+        name="Login"
         options={{
           title: 'Login',
           tabBarIcon: ({ color, focused }) => (
@@ -24,7 +24,7 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="generator"
+        name="Generator"
         options={{
           title: 'Generator',
           tabBarIcon: ({ color, focused }) => (
